@@ -1,0 +1,98 @@
+body,html{
+      background-image: url("BG landscape 11.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:100%;
+}
+a.one:link{
+      color:rgb(29, 154, 154);
+      background-color:transparent;
+      text-decoration:none;
+}
+
+a.two:link{
+      color:rgb(29, 154, 154);
+      background-color:transparent;
+      text-decoration:none;
+}
+
+.lg{
+      text-align:right;
+      position:relative;
+      right: 50px;
+      top: 1px;
+      left:-15px;
+}
+
+.lg1{
+      text-align:right;
+      position:relative;
+      right: 140px;
+      top: -52px;
+}
+
+.corner1{
+      position:absolute;
+      right:10px;
+      width:100px;
+      border: 2px solid rgb(93, 183, 228);
+      border-radius:25px;
+      padding:10px;
+      top:25px
+}
+
+.box{
+      height:400px;
+      width:400px;
+      border: 3px solid rgb(228, 156, 156);
+      background-color:rgb(130, 225, 234);
+      border-radius:25px;
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+}
+
+.txt1{
+      text-align:left;
+      margin:auto;
+      padding:20px;
+}
+
+input[type=text] {
+      width: 100%;
+      font-size:large;
+      padding: 1px 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      background-color: rgb(130, 225, 234);
+      border-bottom: 2px solid rgb(61, 70, 171);
+      height:40px;
+    }
+
+input[type=password] {
+      width: 100%;
+      font-size:large;
+      padding: 1px 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      background-color: rgb(130, 225, 234);
+      border-bottom: 2px solid rgb(61, 70, 171);
+      height:40px;
+    }
+      
+.log1{
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(27%, 100%)
+}
+
+.form-grp.fa{
+      position: absolute;
+      top: 50%;
+      right: 8%;
+}
