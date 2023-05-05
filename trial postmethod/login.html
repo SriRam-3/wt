@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login validation</title>
+        <link rel ="stylesheet" type ="text/css" href ="login.css">
+        <link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+    </head>
+    <body>
+        <form class ="form-container" action="http://localhost:8000/" method ="post">
+            <h3>Login</h3>
+            <div class = "form-grp">
+                <label for = "username">Username</label><br>
+                <input type = "text" name ="username" placeholder = "Username" id = "user" required>
+            </div>
+            <div class = "form-grp">
+                <label for = "password">Password</label><br>
+                <input type = "password" name ="password" placeholder = "Password" id = "pass" required>
+            </div>
+            <div class = "form-grp">
+                <input type = "submit" name ="login-btn" value = "Login">
+            </div>
+        </form>
+    </body>
+</html>
